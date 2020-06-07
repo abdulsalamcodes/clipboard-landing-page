@@ -1,0 +1,32 @@
+.tools {
+    margin: 20rem 0 ;
+    &__items {
+        @extend %display--flex;
+        text-align: center;
+    }
+
+    &__items > * {
+        padding: 3rem;
+    }
+  
+    [src^="images"] {
+        padding-bottom: 3rem;
+    }
+}
+
+.credibility {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__logo {
+        @extend %grid-layout;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    &__logo > *  {
+        padding-bottom: 5rem;
+    }
+}

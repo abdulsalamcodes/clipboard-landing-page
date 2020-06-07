@@ -1,0 +1,30 @@
+@import 'abstract/variables';
+@import 'abstract/functions';
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #eeeeee;
+    color: $text-color-grayish-blue;
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+
+@import 'component/header';
+@import 'component/buttons';
+@import 'component/features';
+@import 'component/benefit';
+@import 'component/tools';
+@import 'component/callToAction';
+@import 'component/footer';
+
+@import 'base/utilities';
+@import 'base/reset';
+
+@import 'mobile';
+@import 'layout/flex';
+@import 'layout/grid';

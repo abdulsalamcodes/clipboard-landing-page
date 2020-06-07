@@ -1,0 +1,80 @@
+%btn {
+    display: inline-block;
+    border: none;
+    padding:  1.5rem 5rem;
+    margin: 2rem .5rem 0;
+    outline: none;
+    font-weight: 600;
+    position: relative;
+    transition: all .2s;
+
+    
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 2rem rgba($color: #000000, $alpha: .2);
+        
+    }
+    
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color: #000000, $alpha: .2);
+    }
+
+
+ 
+}
+
+.button__btn::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .5s;
+    display: inline-block;
+    border-radius: 100px;
+    
+}
+.button__btn__primary::after {
+    background-color: $primary-color-cyan;
+}
+.button__btn__secondary::after {
+    background-color:$secondary-color-blue;
+}
+
+.button__btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.button__btn {
+    @extend %btn;
+   
+    &__primary {
+        @extend %btn;
+        background: $primary-color-cyan;
+        color: white;
+    }
+    &__secondary {
+        @extend %btn;
+        background: $secondary-color-blue;
+        color: white;
+    }
+    
+    &__outline {
+        @extend %btn;
+        color: $primary-color-cyan;
+        background-color: transparent;
+        border: 1px solid $primary-color-cyan;
+    }
+}
+.btn--square {
+    border-radius: 5px;
+}
+.btn--round {
+    border-radius: 30px;
+}
+

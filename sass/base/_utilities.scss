@@ -1,0 +1,29 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+//BORDER RADIUS
+.brl-only {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.brr-only {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.br-all {
+    border-radius: 5px;
+}
+
+.heading--center {
+    text-align: center;
+    margin: 0rem auto;
+    width: 50%;
+}
+
+.heading {
+    color: $dark-grayish-blue;
+    font-weight: 600px;
+}

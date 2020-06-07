@@ -1,0 +1,31 @@
+.features {
+    margin: 20rem 0;
+
+    &__content {
+        display: flex;
+        align-items: center;
+
+        &__image {
+            margin-left: -100px;
+        }
+
+        &__items {
+            padding: 0 10rem;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .features {
+        &__content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            &__items {
+                text-align: center;
+                padding: 5rem 2rem;
+            }
+        } 
+    }
+}

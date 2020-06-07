@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/edb225efbd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👝 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header pt-7"> 
+    <div class="header__logo">
+      <img src="images/logo.svg" alt="Clipboard log">
+    </div>
+
+    <div class="header__text heading--center">
+      <h1 class="heading ">A history of everything you copy</h1>
+      <p>Clipboard allows you to track and organize everything you 
+        copy. Instantly access your clipboard on all your devices.</p>
+    </div>
+
+    <div class="button">
+      <button type="submit" class="button__btn button__btn__primary btn--round">Download for iOS</button>
+      <button type="submit" class="button__btn button__btn__secondary btn--round">Download for Mac</button>
+    </div>
+  </header>
+
+
+  <main class="main">
+    <section class="features">
+      <div class="features__header heading--center">
+        <h1 class="heading">Keep track of your snippets</h1>
+        <p features__header__paragraph>Clipboard instantly stores any item you copy in the cloud, 
+          meaning you can access your snippets immediately on all your 
+          devices. Our Mac and iOS apps will help you organize everything.</p>
+      </div>
+      <div class="features__content my-7">
+        <div class="features__content__image">
+          <img src="images/image-computer.png"  class="full-image" alt="Clipboard preview">
+        </div>
+        <div class="features__content__items">
+          <div>
+            <h2 class="heading">Quick Search</h2>
+            <p>Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+          <div class="py-4">
+            <h2 class="heading">iCloud Sync</h2>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div>
+            <h2 class="heading">Complete History</h2>
+            <p>  Retrieve any snippets from the first moment you started using the app.</p>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+
+
+    <section class="benefit">
+      <div class="benefit__text pb-7 heading--center">
+        <h1 class="heading">Access Clipboard anywhere</h1>
+        <p>Whether you’re on the go, or at your computer, you can access all your Clipboard 
+          snippets in a few simple clicks.</p>
+      </div>
+      <div class="benefit__image ">
+        <img src="images/image-devices.png" class="full-image" alt="Preview of devices">
+      </div>
+    </section>
+
+    <section class="tools">
+      <div class="heading--center">
+        <h2 class="heading">Supercharge your workflow</h2>
+        <p>We’ve got the tools to boost your productivity.</p>
+      </div>
+
+      <div class="tools__items container pt-7">
+        <div class="">
+          <img src="images/icon-blacklist.svg" alt="">
+          <h2 class="heading">Create blacklists</h2>
+          <p>
+            Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+          </p>
+        </div>
+
+        <div>
+          <img src="images/icon-text.svg" alt="">
+          <h2 class="heading">Plain text snippets</h2>
+          <p>Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+
+        <div>
+          <img src="images/icon-preview.svg" alt="">
+          <h2 class="heading">Sneak preview</h2>
+          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="credibility container">
+      <div class="credibility__logo">
+        <img src="images/logo-google.png" alt="Google logo" title="">
+        <img src="images/logo-ibm.png" alt="logo-ibm" title="">
+        <img src="images/logo-microsoft.png" alt=" logo-microsoft">
+        <img src="images/logo-hp.png" alt="logo-hp">
+        <img src="images/logo-vector-graphics.png" alt="logo-vector-graphics">
+      </div>
+    </section>
+
+    <section class="call-to-action">
+      <div class="call-to-action_text pb-4 heading--center">
+        <h1 class="heading">Clipboard for iOS and Mac OS</h1>
+        <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+          and you’re ready to start adding to your clipboard.</p>
+      </div>
+       <div class="button">
+        <button type="submit" class="button__btn br-5 button__btn__primary btn--round">Download for iOS</button>
+        <button type="submit" class="button__btn button__btn__secondary btn--round">Download for Mac</button>
+      </div>
+    </section> 
+  </main>
+  
+  <footer class="footer">
+    <div class="services">
+      <div class="logo">
+        <img src="images/logo.svg" class="small-image" alt="Company logo">
+      </div>
+      <ul>
+        <li>FAQs</li>
+        <li>Contact Us</li>
+      </ul>
+      <ul>
+        <li>Privacy Policy</li>
+        <li>Press Kit</li>
+      </ul>
+      <ul>
+        <li>Install Guide</li>
+      </ul>
+      <address>
+        <i class="fab social-icons fa-facebook  fa-2x"></i>
+        <i class="fab social-icons fa-twitter  ps-2 fa-2x"></i>
+        <i class="fab social-icons fa-instagram fa-2x "></i>
+      </address>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Abdulsalam</a>.
+    </p>
+  </footer>
+  
+</body>
+</html>
