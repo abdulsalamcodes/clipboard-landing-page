@@ -1,7 +1,8 @@
 .footer {
     padding: 2rem 10rem;
-    background-color: lighten($color: $text-color-grayish-blue, $amount: 30%);
+    background-color: lighten($color: $text-color-grayish-blue, $amount: 60%);
     .services {
+        padding: 5rem 0; 
         @extend %display--flex;
     }
 }

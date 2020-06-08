@@ -8,5 +8,7 @@
 @media (max-width: 700px) {
     .header{
         background: url('../images/bg-header-mobile.png');  
+        background-repeat: no-repeat;
+        background-position: top; 
     }
 }
