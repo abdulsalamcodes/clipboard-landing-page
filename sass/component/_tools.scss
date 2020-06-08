@@ -2,17 +2,20 @@
     margin: 20rem 0 ;
     &__items {
         @extend %display--flex;
+        flex-wrap: wrap;
         text-align: center;
     }
 
     &__items > * {
-        padding: 3rem;
+        max-width: 35rem;
     }
   
     [src^="images"] {
         padding-bottom: 3rem;
     }
 }
+
+
 
 .credibility {
     text-align: center;

@@ -1,6 +1,12 @@
 .header {
-    background: url('images/bg-header-desktop.png');  
+    background: url('../images/bg-header-desktop.png');  
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: top;  
     text-align: center;
+}
+
+@media (max-width: 700px) {
+    .header{
+        background: url('../images/bg-header-mobile.png');  
+    }
 }

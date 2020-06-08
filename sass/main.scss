@@ -7,10 +7,10 @@ html {
 }
 
 body {
-    background-color: #eeeeee;
     color: $text-color-grayish-blue;
     font-family: $font-family;
     font-size: $font-size;
+    box-sizing: border-box;
 }
 
 
